@@ -2,8 +2,8 @@ var randomNumber1 = Math.random()*6;
 randomNumber1 = Math.floor(randomNumber1) + 1;
 var randomNumber2 = Math.random()*6;
 randomNumber2 = Math.floor(randomNumber2) + 1;
-var png = "images/dice" + randomNumber1 + ".png";
-var png2 = "images/dice" + randomNumber2 + ".png";
+var png = "DiceGame/images/dice" + randomNumber1 + ".png";
+var png2 = "DiceGame/images/dice" + randomNumber2 + ".png";
 
 document.querySelector("img.img1").srcset = png;
 document.querySelector("img.img2").srcset = png2;
